@@ -1,0 +1,20 @@
+{
+  "name": "beatmappackagerelectron",
+  "version": "1.0.0",
+  "main": "./output/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^31.2.1",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38"
+  }
+}
